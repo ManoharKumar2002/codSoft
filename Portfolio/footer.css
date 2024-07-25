@@ -1,0 +1,43 @@
+footer{
+    height: 30vh;
+    width: 100vw;
+    background-color: #000000;
+}
+
+.headline{
+    padding-top: 3.5rem;
+
+}
+
+.footer-tittle{
+    padding-top: 1.5rem;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+
+.footer-heading{
+    font-size: 1.3rem;
+    text-align: center;
+    color: #fff;
+}
+
+.footer-items{
+    height: 10%;
+    width: 100%;
+    
+}
+
+.footer-items i{
+    font-size: 2rem;
+    padding: 10px;
+    color: #fff;
+    margin-top: 1rem;
+
+}
+
+.copyright{
+    padding-top: 1.5rem;
+    text-align: center;
+    color: #fff;
+}

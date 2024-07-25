@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #2d2d2d;
+}
+nav ul li {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    font-size: 35px;
+    color: red;
+    font-weight: 600;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 85vh;
+}
+
+
+
+.calculator {
+    border-radius: 5px;
+    padding: 30px;
+    background-color: #000;
+
+}
+
+.display {
+    width: 21vw;
+    height: 13vh;
+    margin: 11px;
+    flex: 1;
+    font-size: 20px;
+    padding: 10px;
+    text-align: right;
+    padding-right: 11px;
+    outline: none;
+    background-color: #2d2d2d;
+    border: 2px solid #2d2d2d;
+    color: #fff;
+}
+.Btn input.operator{
+    color: #fff;
+}
+
+.Btn input {
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+    padding: 26px 20px;
+    margin: 10px;
+    padding-top: 17px;
+    background-color: #000;
+    border: 2px #000 solid;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: 800;
+    color: #ffff;
+    box-shadow: 0px 0px 5px #2d2d2d;
+}
+
+.Btn input:hover{
+    background-color: #2d2d2d;
+    box-shadow: none;
+}
+
+#equal{
+    background-color: red;
+    font-size: 25px;
+    padding-top: 12px;
+    box-shadow: none;
+}
+
+#del , #ac {
+    /* background-color: red; */
+    padding-right: 41px;
+    box-sizing: border-box;
+}
